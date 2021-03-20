@@ -1,0 +1,134 @@
+ //    string snowMan= "HNLRXYTB";//REPRESET EA PART OF THE BODY hat,nose,left eye,right eye,left arm ,right arm,torso,base
+    //     int i = zero;
+    //     string nose;
+    //      string  lefthand;
+    //     string righhand;
+    //     bool charXhelper = false;//esh paamim she hayad X reika
+    //     bool charYhelper = false; //esh paamim she hayad Y reika
+    //      while(newNum!=0){ //zrihim 2 tnaim ehad le maspik zrihim ladat gam
+    //      cout<<"iam in the while"<<endl;
+    //      //naavod im mispar afuh
+    //      //eize helek baguf nimzaim karega
+          
+    //       char partOfBody = snowMan.at(i);
+    //       //cout <<"curr body = " <<partOfBody<<endl;
+          
+    //             //esh mikrim she hu merim et hayad lakahat be heshbon
+    //              if(partOfBody=='H'){ //kova
+    //              long mod = newNum%ten;
+    //            resoltSnowman += " " + Hats.at(mod-one)+"\n";
+    //            //i++ bahuz
+    //        //cout << resoltSnowman <<endl;
+
+    //        }else if(partOfBody == 'N') {
+    //            long mod = newNum%ten;
+    //             nose = Nose.at(mod -one);
+                
+    //            //resoltSnowman += "(" +Nose.at(mod-one)+ ")";
+           
+    //        //cout << resoltSnowman <<endl;
+    //        }
+    //        else if(partOfBody=='L'){
+    //            long mod = newNum%ten;
+    //            resoltSnowman += " "+Left.at(mod-one) + " ";
+    //        }
+    //        else if(partOfBody=='R'){
+    //            long mod = newNum%ten;
+    //            resoltSnowman += " "+Right.at(mod-one) + " ";
+    //        }
+    //        else if(partOfBody=='X'&& charXhelper==false){ //yad potenzialit
+    //         long mod = newNum%ten;
+    //         if(X.at(mod-one)!=" "){ //nishtamesh be arhaim shel maarah ke index le maarah shel string
+            
+             
+    //            //i++; bahuz 
+    //         }
+    //         else
+    //         {
+    //           resoltSnowman += " "; //she yaziz oto bekol ofen mikre she yad reika
+    //           charXhelper = true; // 
+    //         //le zarih else be brirat mihdal hu reik xhelper nishtamesh be ze
+    //         } 
+            
+    //        //cout << resoltSnowman <<endl;
+
+           
+    //        }else if(partOfBody == 'Y' && charYhelper==false){ //yad yamin potenzialit //le roze she ikanes le po shuv charyhelper == false 
+    //            cout<<"iam at Y Place"<<endl;
+    //            long mod = newNum%ten;
+    //          if(Y.at(mod-one) !=" "){ //nishtamesh be arhaim shel maarah ke index le maarah shel string
+    //              resoltSnowman += Y.at(mod-one) + "\n";
+    //         }
+    //          else //mikre she yad reika
+    //          {
+    //           resoltSnowman += "\n";
+    //           charYhelper = true;
+    //          }
+    //          //cout << resoltSnowman <<endl;
+              
+           
+    //        }else if(partOfBody=='X' && charXhelper){ //charxhelper == true yad kodemet haita reika
+    //        cout<<"iam at X and boolean conditon" <<endl;
+    //             long mod = newNum%ten;
+    //          resoltSnowman+= X.at(mod-one) + " ";
+    //          //cout << resoltSnowman <<endl;
+           
+    //        }else if(partOfBody == 'T') { //torso
+    //            long mod = newNum%ten;
+    //        resoltSnowman+=T.at(mod-one) + " ";
+           
+    //        }else if(partOfBody=='Y' && charYhelper){ //zot omeret yad yamin kodemet hayta reika
+    //        long mod = newNum%ten;
+    //           resoltSnowman += Y.at(mod-one)+ "\n" ;
+
+           
+    //        }else //curchar == B
+    //        {
+    //            long mod = newNum%ten;
+    //            resoltSnowman += " " + B.at(mod-one) + " ";
+    //        }
+              
+    //         i++;
+    //         newNum/=ten;
+    //         cout <<"curr i = "<< i<<endl;
+    //         cout <<"curr newNum = " <<newNum<<endl;
+    //        } 
+
+    //  }
+         //we have valid num
+         
+        //rozim she le ihi harigot
+        // array<string,four> Hats = {"_===_","  ___\n ....." , "   _\n  /_\\" , "  ___\n (_*_)"}; //habrakets youdea lityahes ke maarah shel stringimg 
+        // array<string,four> Nose = {",",".","_"," "}; //NORMAL DOT LINE NONE ,Nose
+        // array<string,four> Left = {".","o","O","-"};//left eye ,dot ,bigger dot,closed
+        // array<string,four> Right = {".","o","O","-"};//left eye ,dot ,bigger dot,closed
+        // array<string,four> X = {"<" , "\\" , "/" , " "}; // left arm
+        // array<string,four> Y = {">" , "/" , "\\" , " "}; // right arm
+        // array<string,four> T = {" : " , "] [", "> <", "   "}; //torso
+        // array<string,four> B = {" : ", "\" \"", "___" , "   "}; // base
+         //lets inverse the num we want to start from top 
+        //going to use while
+         long mod = zero ;
+         long copy = a;
+        long newNum = zero;
+        //better to inverse number
+       // int mod = zero;
+        int caunter = 0;
+        cout <<"our curr num is " <<a <<endl;
+        // while(a!=zero){ //nitka po lifnei beseder namshih
+        //  mod = a%ten;
+        //  cout<<mod<<",";
+        // if((mod) == 0 || (mod) > 4 || (mod)<0 ){
+        //        throw std::out_of_range("Invalid input");
+        //    }
+           
+        //     newNum = newNum*ten + mod;
+        //     a/=ten;
+        //     caunter++;
+        //    }
+         //maarah mathil mi 0
+           cout<<endl;
+        cout<<"our caunter ="<<caunter <<endl;
+        cout <<"newNum="<<newNum <<endl;
+        //efshar livnot et haish sheleg im caunter ==8
+        
